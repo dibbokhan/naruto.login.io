@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body{
+  margin: 30px;
+  font-family: 'Alata', sans-serif;
+  background: url(naruto_back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img{
+  width: 20%;
+}
+
+.container{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 10%;
+  
+  
+  
+}
+.login-form{
+  padding: 20px;
+  background:  #454545;
+  border-radius: 10px;
+}
+/* 
+#myDIV{
+  display: none;
+}
+.register-form{
+  margin-top: 30px;
+  padding: 20px;
+  background: #ffffffd1;
+  border-radius: 10px;
+}
+
+input[type="submit"], button{
+    background: #6e0675 !important;
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #6e0675;
+  font-family: sans-serif;
+  color: #fff;
+}     */
+@media only screen and (max-width: 1000px) {
+  body{
+    margin: 30px;
+    font-family: 'Alata', sans-serif;
+    background: url(back2.jpg)
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+ 
+  
+  .container{
+    
+    margin: 45% auto;
+    width: 80%;
+    
+    
+    
+    
+    
+  }
+  .login-form{
+    padding: 20px;
+    background:  #454545;
+    border-radius: 10px;
+
+  }
+
+}
